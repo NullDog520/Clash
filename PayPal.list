@@ -1,0 +1,25 @@
+# ===============================
+# PayPal Rules for Loon
+# Maintain: GitHub Remote
+# ===============================
+
+# --- DOMAIN ---
+DOMAIN,api.paypal.com,💳 PayPal
+DOMAIN,notify.paypal.com,💳 PayPal
+DOMAIN,ipnpb.paypal.com,💳 PayPal
+
+# --- DOMAIN-SUFFIX ---
+DOMAIN-SUFFIX,paypal.com,💳 PayPal
+DOMAIN-SUFFIX,paypalobjects.com,💳 PayPal
+DOMAIN-SUFFIX,pypl.com,💳 PayPal
+DOMAIN-SUFFIX,pypl.co,💳 PayPal
+DOMAIN-SUFFIX,pypl.link,💳 PayPal
+DOMAIN-SUFFIX,venmo.com,💳 PayPal        # PayPal 旗下
+DOMAIN-SUFFIX,venmo-assets.com,💳 PayPal
+DOMAIN-SUFFIX,braze.com,💳 PayPal        # PayPal 推送/埋点
+DOMAIN-SUFFIX,app-measurement.com,💳 PayPal
+
+# --- IP-CIDR (可选，较少用) ---
+IP-CIDR,64.4.240.0/21,💳 PayPal,no-resolve
+IP-CIDR,66.211.168.0/22,💳 PayPal,no-resolve
+IP-CIDR,173.0.80.0/20,💳 PayPal,no-resolve
