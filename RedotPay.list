@@ -1,0 +1,20 @@
+# ===============================
+# RedotPay Rules for Loon
+# ===============================
+
+# --- MAIN DOMAIN ---
+DOMAIN-SUFFIX,redotpay.com,💳 RedotPay
+DOMAIN-SUFFIX,redotpay.io,💳 RedotPay
+
+# --- API / APP ---
+DOMAIN,api.redotpay.com,💳 RedotPay
+DOMAIN,app.redotpay.com,💳 RedotPay
+DOMAIN,auth.redotpay.com,💳 RedotPay
+
+# --- CDN / Assets ---
+DOMAIN-SUFFIX,cloudflare.com,💳 RedotPay
+
+# --- Tracking ---
+DOMAIN-SUFFIX,app-measurement.com,💳 RedotPay
+DOMAIN-SUFFIX,firebaseapp.com,💳 RedotPay
+DOMAIN-SUFFIX,googleapis.com,💳 RedotPay
